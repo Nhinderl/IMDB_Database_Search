@@ -1,7 +1,5 @@
 /**
  * Name: Noah Hinderle
- * Student Number: 1053077
- * Email: nhinderl@uoguelph.ca
 */
 
 #include <stdlib.h>
