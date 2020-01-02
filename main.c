@@ -29,7 +29,7 @@ int main(int argc, char **argv){
     struct principal_node *principalNconstHead, *principalTconstHead, *principalNext;
 
 
-    /*reads from name.basics file to create array and trees*/
+    /*reads from name.basics file to create array and trees, path to file specified in terminal*/
     if(argc > 1){
 
         strcpy(dataPath, argv[1]);
@@ -65,7 +65,7 @@ int main(int argc, char **argv){
     memset(dataPath, 0, strlen(dataPath));
 
 
-    /*reads from title.basics file to create array and trees*/
+    /*reads from title.basics file to create array and trees, path to file specified in terminal*/
 
     strcpy(dataPath, argv[1]);
     strcat(dataPath, "/title.basics.tsv");
@@ -94,7 +94,7 @@ int main(int argc, char **argv){
     memset(dataPath, 0, strlen(dataPath));
 
 
-    /*reads from title.principals file to create array and trees*/
+    /*reads from title.principals file to create array and trees, path to file specified in terminal*/
     strcpy(dataPath, argv[1]);
     strcat(dataPath, "/title.principals.tsv");
 
